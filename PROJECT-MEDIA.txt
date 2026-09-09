@@ -1,0 +1,8 @@
+BOBI — The Quadropper
+GitHub project package assembled from the user-supplied project photos, videos,
+PowerPoint presentation and project paper.
+
+The README is written for direct use as the repository README.md.
+Original submitted documents are preserved in docs/.
+Additional embedded Office media are preserved in assets/presentation-media/
+and assets/document-media/.
