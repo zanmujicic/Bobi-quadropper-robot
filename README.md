@@ -37,30 +37,6 @@ The project documentation describes intended applications including hazardous-ar
 
 ---
 
-## 📸 Project Gallery
-
-### BOBI in the field
-
-<p align="center">
-  <img src="assets/images/01-bobi-outdoor.jpg" alt="BOBI outdoors on uneven ground" width="48%">
-  <img src="assets/images/05-bobi-concrete.jpg" alt="BOBI on concrete" width="48%">
-</p>
-
-### Prototype & controller
-
-<p align="center">
-  <img src="assets/images/02-bobi-and-controller.jpg" alt="BOBI and its remote controller" width="48%">
-  <img src="assets/images/03-controller-render.png" alt="3D-rendered BOBI controller" width="48%">
-</p>
-
-### Electronics and assembly
-
-<p align="center">
-  <img src="assets/images/04-bobi-workbench.jpg" alt="BOBI during electronics and mechanical assembly" width="720">
-</p>
-
----
-
 ## ✨ Features
 
 - 🦿 **Quadruped locomotion** with 3 degrees of freedom per leg
@@ -126,10 +102,6 @@ The custom controller is designed to keep operation simple and accessible.
 - LED indicator for detection
 - Phone holder for camera access
 - 3D-printed and laser-cut enclosure/components
-
-<p align="center">
-  <img src="assets/images/03-controller-render.png" alt="BOBI controller" width="620">
-</p>
 
 The project documentation reports a control range of **over 200 m** under its tested/claimed conditions.
 
@@ -278,36 +250,11 @@ BOBI-THE-QUADROPPER/
 ├── README.md
 ├── assets/
 │   ├── images/
-│   │   ├── 01-bobi-outdoor.jpg
-│   │   ├── 02-bobi-and-controller.jpg
-│   │   ├── 03-controller-render.png
-│   │   ├── 04-bobi-workbench.jpg
-│   │   └── 05-bobi-concrete.jpg
-│   ├── presentation-media/
-│   └── document-media/
+│   │   └── 01-bobi-outdoor.jpg
 ├── docs/
 │   ├── BOBI-The-Quadroper-Presentation.pptx
 │   └── BOBI-The-Quadroper-Project-Paper.docx
-└── media/
-    └── videos/
-        ├── 01-bobi-test.mp4
-        ├── 02-bobi-test.mp4
-        └── 03-bobi-test.mp4
 ```
-
----
-
-## 🎥 Media & Documents
-
-The repository package includes the supplied project media:
-
-- **5 project photographs**
-- **3 test videos**
-- Original **PowerPoint presentation**
-- Original **project paper**
-- Additional images extracted from the submitted presentation and document
-
-GitHub will display the photographs directly in this README. The videos and original documents are kept under `media/` and `docs/` so the complete project material remains together.
 
 ---
 
