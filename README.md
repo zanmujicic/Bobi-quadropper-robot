@@ -275,9 +275,7 @@ The submitted presentation identifies the project as **SCI&TECH CHALLENGE 2026**
 
 ## 📄 License
 
-No software/open-source license was supplied with the uploaded project materials.
-
-If this repository is published publicly, add the license you want to use (for example MIT, GPL-3.0 or a Creative Commons license for documentation/media) and make sure it matches the rights of all contributors.
+This project is licensed under MIT licence.
 
 ---
 
