@@ -225,16 +225,6 @@ The portfolio includes additional work such as:
 - Home-server and networking projects
 - Other technical and DIY projects
 
-## 👥 Team
-
-**Project Team**
-
-- **Žan Mujičić**
-- **Amna Kolić**
-- **Mirza Čoloman**
-- **Adin Kadrić**
-
-**Mentor:** Edina Hodžić
 
 **School:** JU Mješovita srednja industrijska škola  
 **Location:** Zenica, Bosnia and Herzegovina
@@ -277,7 +267,7 @@ See the original presentation and project paper in `docs/` for the project's cit
 
 ## 🏆 Project Context
 
-BOBI was prepared for the **SCI&TECH Challenge** project context at the University of Zenica / Faculty of Engineering and Natural Sciences.
+BOBI was prepared for the **SCI&TECH Challenge** project context at the University of Zenica / Faculty of Engineering and Natural Sciences where he won first place.
 
 The submitted presentation identifies the project as **SCI&TECH CHALLENGE 2026** and the team as students of JU Mješovita srednja industrijska škola in Zenica.
 
