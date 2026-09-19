@@ -1,0 +1,92 @@
+„SCI&TECH 2025“  08. april 2026. 
+Zenica, BiH
+
+
+BOBI THE QUADROPER
+
+Ime i prezime učesnika  na radu: Žan Mujičić
+Naziv srednje škole: JU Mješovita srednja industrijska škola
+Adresa srednje škole: Bulevar kralja Tvrtka I broj 11
+Kontakt e-mail: zanmujicic@gmail.com
+
+
+	UVOD
+
+Cilj našeg projekta bio je konstruisati funkcionalnog robotskog psa,  koji može pomoći u opasnim zadacima, poput detekcije mina, istraživanja nepristupačnih terena ili edukaciju. Željeli smo pokazati da robotika ne mora biti skupa da bi bila korisna. Fokusirali smo se na ekonomičnost i modularnost, koristeći dostupne materijale poput šperploče i 3D printanih dijelova. Očekujemo da naš robot pokaže stabilnost u kretanju i preciznost u detekciji magnetnih predmeta, uz mogućnost daljinskog upravljanja u realnom vremenu.
+
+	EKSPERIMENTALNI DIO
+
+Za izradu šasije robotskog psa BOBI koristili smo tanku šperploču od 2.6mm, a zglobovi i nosači su izrađeni metodom 3D printanja meterijalom PLA, što je prikazano na Slici 2. Svi dijelovi koje smo napravili 3D printanjem [5] i dijelovi koji su kasnije izrezani iz šperploče [6], prethodno su modelirani u CAD softveru [4], Slika 2.1, te uz uoptrebu ležajeva osigurava se glatko pomjeranje na zglobovima.
+Za poziciju servo motora koristili smo se dizajnom 3 stepena slobode po nozi koji se koristi na mnogim većim i skupljim robotima [7] jer omogucuje balans težine samih dijelova i pokretljivost robota.
+
+  
+Korištena oprema i materijali:  
+	Mikrokontroler: ESP32 (Wi-Fi/Bluetooth modul).  
+	Aktuatori: 8x MG90S (metalni zupčanici) i 4x SG90 servo motori.  
+	Upravljanje servo motora: PCA9685 PWM modul.  
+	Senzori i dodaci: Senzor za metal, zvučni signalizator, NE555 tajmer za signalna svjetla.  
+	Napajanje: 2x 18650 Li-ion baterije, zastita za baterije (do 20A), step-down konverter (5V/2A) i buck-boost konverter (5V4A). 
+	Ležajevi: 8x MR92-ZZ
+	Zvucni signal: 12mm Passive Buzzer
+	Hlađenje: 30mm Ventilator (5V0.2A)
+	Kamera: Mini kamera rezolucije 480p (5V1A)
+
+Programiran je u programskom jeziku C++ [3] što mu omogućuje daljnje nadogradnje i povecenje stabilnosti.
+Proveli smo testiranje stabilnosti hoda na različitim podlogama i izračunali prosječnu brzinu kretanja robota po različitim podlogama. 
+
+Za proračun prosječne brzine koristili smo formulu:
+
+v=s/t
+	...(1)
+gdje je: v –prosječna brzina [cm/s], s – pređeni put [cm], t – vrijeme kretanja [s].
+
+
+Također smo ispitali senzor za magnet kako bi utvrdili s koje udaljenosti robot prepoznaje magnetne anomalije.
+
+3. REZULTATI I ANALIZA
+
+Tabela 1. Stabilnost kretanja robota.
+
+PODLOGA	STABILNOST KRETANJA	PROSJEČNA BRZINA KRETANJA	NAPOMENA
+RAVNI TEREN
+(laminat, pločice)	vrlo stabilno	4 cm/s	robot se kreće bez problema
+NA BETONU	stabilno	3 cm/s	malo sporije kretanje
+ZEMLJANI TEREN	umjereno stabilno	2.5 cm/s	potrebna korekcija servo motora
+
+Testiranjem smo došli do zaključka da robot najstabilnije hoda po ravnom terenu. Na neravnom terenu dolazi do manjih odstupanja u hodu i brzina kretanja se smanjuje zbog potrebe za većom korekcijom servo motora ali robot i dalje može da se kreće bez prevrtanja. Uz kretanje po ravnom terenu testirali smo i kretanje po površinama sa nagibom. Došli smo do slijedećih rezultata: moguć silazak niz podlogu do 20°, moguć uspon uz podlogu do 7.5°.
+
+Tabela 2. Rezultati testiranja detekcije metala.
+
+UDALJENOST METALA OD SENZORA	REAKCIJA ROBOTA	SIGNAL SENZORA
+1 cm	robot odmah aktivira zvučni signal	jak
+1.5 cm	robot detektuje metal i šalje signal	srednji
+2 cm	povremena detekcija	srednji do slab
+3 cm	vrlo rijetka detekcija	vrlo slab
+> 4 cm	nema detekcije	nema signala
+
+Tokom eksperimenta testirali smo sposobnost robota da detektuje metalne objekte na različitim udaljenostima. Rezultati pokazuju da senzor najbolje radi na udaljenosti do 2 cm. Na većim udaljenostima signal postaje slabiji a preko 4 cm udaljenosti robot više ne registruje magnetne predmete.
+
+4. ZAKLJUČAK
+
+Cilj projekta „BOBI THE QUADROPER” je bio napraviti pristupačnu i dostupnu platformu koja moze pomoći u detekciji mina, edukaciji, istraživanju i drugim područjima uz buduće nadigradnje.
+Sama prednost robota je to što posjeduje kameru i mogućnost spajanja na kontroler putem bluetootha ili WIFI-ja te ga zbog jednostavnih kontrola svatko može upravljati na daljinu
+Svi dijelovi su učvršćeni vijcima što omogućuje laku zamjenu isti u slucaju kvara.
+
+5. LITERATURA
+
+[1] https://www.bhmac.org/
+[2] https://www.reddit.com/
+[3] https://www.arduino.cc/en/software/    
+[4] https://www.autodesk.com/products/fusion-360/overview
+[5] https://ultimaker.com/software/ultimaker-cura/  
+[6] https://webapp.craftseek.com/#/download     
+[7] https://bostondynamics.com/products/spot/
+[8] https://temu.com
+
+
+
+
+
+
+
+
