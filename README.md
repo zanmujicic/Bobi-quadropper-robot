@@ -1,4 +1,4 @@
-# 🤖 BOBI — The Quadropper
+#  BOBI — The Quadropper
 
 <p align="center">
   <img src="assets/images/01-bobi-outdoor.jpg" alt="BOBI quadruped robot outdoors" width="720">
@@ -20,7 +20,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **BOBI — The Quadropper** is a compact quadruped robot developed as a student robotics project at **JU Mješovita srednja industrijska škola in Zenica, Bosnia and Herzegovina**.
 
@@ -37,27 +37,27 @@ The project documentation describes intended applications including hazardous-ar
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🦿 **Quadruped locomotion** with 3 degrees of freedom per leg
-- ⚙️ **12 servo motors** for leg movement
-- 🧠 **ESP32** as the main microcontroller
-- 📡 Remote operation using an ESP32-based controller
-- 🎮 Dedicated controller with **9 pushbuttons + joystick**
-- 📱 Phone holder for accessing the robot camera
-- 📷 **480p mini camera** for remote observation
-- 🧲 Metal/magnetic detection sensor with visual and audible indication
-- 💡 Front white LEDs for low-light environments
-- 🟡 Yellow side LEDs for signaling
-- 🔊 Passive buzzer for detection alerts
-- 🌬️ Active cooling with a 30 mm fan and passive heat dissipation
-- 🧩 Plywood + 3D-printed modular mechanical construction
-- 🔧 Screw-fastened parts for easier replacement and maintenance
-- 💻 Programmed in **C++** for future upgrades
+-  **Quadruped locomotion** with 3 degrees of freedom per leg
+-  **12 servo motors** for leg movement
+-  **ESP32** as the main microcontroller
+-  Remote operation using an ESP32-based controller
+-  Dedicated controller with **9 pushbuttons + joystick**
+-  Phone holder for accessing the robot camera
+-  **480p mini camera** for remote observation
+-  Metal/magnetic detection sensor with visual and audible indication
+-  Front white LEDs for low-light environments
+-  Yellow side LEDs for signaling
+-  Passive buzzer for detection alerts
+-  Active cooling with a 30 mm fan and passive heat dissipation
+-  Plywood + 3D-printed modular mechanical construction
+-  Screw-fastened parts for easier replacement and maintenance
+-  Programmed in **C++** for future upgrades
 
 ---
 
-## 🏗️ Mechanical Design
+##  Mechanical Design
 
 The chassis uses **2.6 mm plywood**, while joints and brackets are made from **PLA 3D-printed parts**. The mechanical components were modeled in CAD before fabrication, and bearings are used at the joints to support smoother movement.
 
@@ -67,7 +67,7 @@ The documented prototype weighs approximately **480 g**.
 
 ---
 
-## 🔌 Hardware
+##  Hardware
 
 | Component | Specification |
 |---|---|
@@ -90,7 +90,7 @@ The hardware list above follows the project's submitted technical documentation.
 
 ---
 
-## 🎮 Controller
+##  Controller
 
 The custom controller is designed to keep operation simple and accessible.
 
@@ -107,7 +107,7 @@ The project documentation reports a control range of **over 200 m** under its te
 
 ---
 
-## 🧠 Software & Control
+##  Software & Control
 
 BOBI is programmed in **C++**. The project was designed so that the software can be further optimized and expanded.
 
@@ -126,7 +126,7 @@ Possible future software work includes:
 
 ---
 
-## 🧪 Testing Results
+##  Testing Results
 
 ### Walking stability
 
@@ -155,11 +155,11 @@ On uneven terrain, the robot required additional servo correction and moved more
 
 The documented experiment concluded that the sensor performed best at distances up to approximately **2 cm**, with no detection reported beyond 4 cm.
 
-> ⚠️ **Safety note:** BOBI is an educational/experimental prototype. Its metal/magnetic sensor should **not** be treated as a certified mine-detection or demining system, and the robot must not be used to declare an area safe.
+>  **Safety note:** BOBI is an educational/experimental prototype. Its metal/magnetic sensor should **not** be treated as a certified mine-detection or demining system, and the robot must not be used to declare an area safe.
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 The project was built around several goals:
 
@@ -174,7 +174,7 @@ The submitted project documentation states an intended total project cost of **u
 
 ---
 
-## 🔧 Manufacturing
+##  Manufacturing
 
 The project combines several accessible fabrication methods:
 
@@ -182,15 +182,15 @@ The project combines several accessible fabrication methods:
 
 Main fabrication technologies:
 
-- 🖨️ 3D printing for joints, brackets and custom parts
-- 🔥 Laser cutting for plywood components
-- 🪵 Plywood for the lightweight structural frame
-- 🔩 Screws and bearings for serviceable mechanical joints
-- 💻 C++ firmware for the control system
+-  3D printing for joints, brackets and custom parts
+-  Laser cutting for plywood components
+-  Plywood for the lightweight structural frame
+-  Screws and bearings for serviceable mechanical joints
+-  C++ firmware for the control system
 
 ---
 
-## 🚀 Future Development
+##  Future Development
 
 BOBI's modular design leaves room for substantial upgrades:
 
@@ -209,7 +209,7 @@ BOBI's modular design leaves room for substantial upgrades:
 
 ---
 
-## 🌐 More Projects & Information
+##  More Projects & Information
 
 BOBI is part of a wider collection of robotics, electronics, 3D-printing, CNC, self-hosting and DIY projects.
 
@@ -233,7 +233,7 @@ The team and school information is taken from the submitted project documents.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 BOBI-THE-QUADROPPER/
@@ -244,11 +244,12 @@ BOBI-THE-QUADROPPER/
 ├── docs/
 │   ├── BOBI-The-Quadroper-Presentation.pptx
 │   └── BOBI-The-Quadroper-Project-Paper.docx
+├── code/
 ```
 
 ---
 
-## 📚 References
+##  References
 
 The submitted project documentation references:
 
@@ -265,7 +266,7 @@ See the original presentation and project paper in `docs/` for the project's cit
 
 ---
 
-## 🏆 Project Context
+##  Project Context
 
 BOBI was prepared for the **SCI&TECH Challenge** project context at the University of Zenica / Faculty of Engineering and Natural Sciences where he won first place.
 
@@ -273,7 +274,7 @@ The submitted presentation identifies the project as **SCI&TECH CHALLENGE 2026**
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under MIT licence.
 
